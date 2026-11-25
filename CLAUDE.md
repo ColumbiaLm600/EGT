@@ -8,6 +8,12 @@ Dies ist ein Workspace für das Minecraft Projekt **EGT**.
 - **Edgartown** ist die Hauptstadt.
 - Ziel: Eine Stadt bauen, nach der Idee von **Minecraft Freedom**.
 
+## Modpack
+
+- Link: https://www.curseforge.com/minecraft/share/h7DYvwow
+- Mod-Liste: siehe `MODPACK.md`
+- Geplant: ComputerCraft
+
 ## Sprache
 
 - Immer auf **Deutsch** antworten.
