@@ -102,3 +102,9 @@ Diese Dateien sind keine normalen Mods. Es sind Erweiterungen für RealTrainMod.
 
 > Es gibt CC: Tweaked für **1.12.2**. Du hast das auf CurseForge geprüft.
 > Dateien für 1.12.2: https://www.curseforge.com/minecraft/mc-mods/cc-tweaked/files/all?page=1&pageSize=20&version=1.12.2&showAlphaFiles=hide
+
+## Projekte
+
+| Projekt | Ordner | Braucht |
+|---------|--------|---------|
+| Bahnhofsanzeigen | `bahnhof/` | CC: Tweaked (Monitore, Lautsprecher, Modems), RTM |
