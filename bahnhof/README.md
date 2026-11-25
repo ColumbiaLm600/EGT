@@ -66,7 +66,8 @@ So kann es eine kleine S-Bahn-Tafel und eine große Fernverkehrs-Tafel geben.
 Auf dem Computer eintippen. Ersetze `server` durch die Rolle:
 
 ```
-wget run https://raw.githubusercontent.com/ColumbiaLm600/EGT/main/bahnhof/install.lua server
+wget https://raw.githubusercontent.com/ColumbiaLm600/EGT/main/bahnhof/install.lua install
+install server
 ```
 
 Rollen: `server`, `bahnsteig`, `halle`, `melder`, `ansage`.

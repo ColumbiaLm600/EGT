@@ -6,7 +6,8 @@
 -- Rollen: server, bahnsteig, halle, melder, ansage
 --
 -- Beispiel (auf dem Computer eintippen):
---   wget run https://raw.githubusercontent.com/ColumbiaLm600/EGT/main/bahnhof/install.lua server
+--   wget https://raw.githubusercontent.com/ColumbiaLm600/EGT/main/bahnhof/install.lua install
+--   install server
 --
 -- Hinweis: Das geht nur, wenn das GitHub-Repo öffentlich ist
 -- und der Branch "main" die Dateien enthält.
