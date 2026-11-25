@@ -13,8 +13,8 @@ M.typen = {
   R  = { name = "Regionalzug",    farbe = "red",     vmax = 120, prio = 4 },
   RE = { name = "Regional-Express", farbe = "magenta", vmax = 120, prio = 3 },
   IR = { name = "Interregio",     farbe = "orange",  vmax = 192, prio = 2 },
-  IC = { name = "Intercity",      farbe = "blue",    vmax = nil, prio = 1 },
-  SZ = { name = "Schnellzug",     farbe = "yellow",  vmax = 250, prio = 0 },
+  IC = { name = "Intercity",      farbe = "lightGray", vmax = nil, prio = 1 },
+  SZ = { name = "Schnellzug",     farbe = "lightGray", vmax = 250, prio = 0 },
 }
 
 local UNBEKANNT = { name = "Zug", farbe = "gray", vmax = nil, prio = 9 }

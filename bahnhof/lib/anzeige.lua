@@ -12,6 +12,11 @@ local M = {}
 M.BAHNSTEIG_MIN = { breite = 26, hoehe = 12 }
 M.HALLE_MIN = { breite = 40, hoehe = 14 }
 
+-- Auf hellen Farben ist schwarze Schrift besser lesbar.
+local function helle_farbe(name)
+  return name == "yellow" or name == "orange" or name == "lightGray"
+end
+
 -- Kurzer Hinweis-Text zu einer Abfahrt
 local function status_text(abf)
   if abf.status == "einfahrt" then return "fährt ein" end
@@ -59,7 +64,7 @@ function M.bahnsteig(t, daten, cfg)
   local luft = (h >= 14) and 1 or 0
   local info = Zugtypen.info(erster.typ)
   local farbe = Zeichnen.farbe(info.farbe)
-  local text_farbe = (info.farbe == "yellow" or info.farbe == "orange") and colors.black or colors.white
+  local text_farbe = helle_farbe(info.farbe) and colors.black or colors.white
 
   local y = 2 + luft
   -- Typ-Balken: Linie + Typ
@@ -148,7 +153,7 @@ function M.halle(t, daten, cfg)
     if not erlaubt or erlaubt[abf.typ] then
       local info = Zugtypen.info(abf.typ)
       local farbe = Zeichnen.farbe(info.farbe)
-      local hell = (info.farbe == "yellow" or info.farbe == "orange")
+      local hell = helle_farbe(info.farbe)
       local einfahrt = abf.status == "einfahrt"
 
       Zeichnen.schreibe(t, x_zeit, y, Text.links(" " .. abf.zeit_text, w_zeit), colors.white, colors.black)

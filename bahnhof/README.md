@@ -17,8 +17,8 @@ Bahnhofsanzeigen mit ComputerCraft (CC: Tweaked) für EGT.
 | R | Regionalzug | 120 | rot |
 | RE | Regional-Express | 120 | magenta |
 | IR | Interregio | 192 | orange |
-| IC | Intercity | – | blau |
-| SZ | Schnellzug | 250 | gelb |
+| IC | Intercity | – | hellgrau |
+| SZ | Schnellzug | 250 | hellgrau |
 
 Ändern: `lib/zugtypen.lua`.
 
