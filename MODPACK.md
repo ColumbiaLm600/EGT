@@ -19,3 +19,9 @@
 | Mod | CurseForge | Status |
 |-----|------------|--------|
 | ComputerCraft (CC: Tweaked) | https://www.curseforge.com/minecraft/mc-mods/cc-tweaked | Geplant |
+
+## Projekte
+
+| Projekt | Ordner | Braucht |
+|---------|--------|---------|
+| Bahnhofsanzeigen | `bahnhof/` | CC: Tweaked (Monitore, Lautsprecher, Modems), RTM |
