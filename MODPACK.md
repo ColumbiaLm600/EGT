@@ -96,9 +96,7 @@ Diese Dateien sind keine normalen Mods. Es sind Erweiterungen für RealTrainMod.
 
 | Mod | CurseForge | Status |
 |-----|------------|--------|
-| ComputerCraft (CC: Tweaked) | https://www.curseforge.com/minecraft/mc-mods/cc-tweaked | Geplant |
+| ComputerCraft (CC: Tweaked) | https://www.curseforge.com/minecraft/mc-mods/cc-tweaked | Geplant, 1.12.2 vorhanden |
 
-> Achtung: Das Modpack läuft auf **1.12.2**.
-> Die CurseForge-Seite von CC: Tweaked zeigt als neueste Version nur 1.20.1.
-> Ob es eine Datei für 1.12.2 gibt, ist **nicht bestätigt**.
-> Bitte auf der Seite unter "Files" mit dem Filter 1.12.2 nachsehen.
+> Es gibt CC: Tweaked für **1.12.2**. Du hast das auf CurseForge geprüft.
+> Dateien für 1.12.2: https://www.curseforge.com/minecraft/mc-mods/cc-tweaked/files/all?page=1&pageSize=20&version=1.12.2&showAlphaFiles=hide
